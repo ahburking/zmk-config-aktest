@@ -1,3 +1,4 @@
 config SHIELD_AKTEST
-    def_bool $(shields_list_contains,aktest)
+def_bool
+$(shields_list_contains,aktest)
     
